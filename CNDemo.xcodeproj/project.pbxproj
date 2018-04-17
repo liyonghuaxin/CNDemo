@@ -15,6 +15,7 @@
 		1807BAEB2085DD14001F6738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807BAEA2085DD14001F6738 /* main.m */; };
 		1807BAF52085DD14001F6738 /* CNDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807BAF42085DD14001F6738 /* CNDemoTests.m */; };
 		1807BB002085DD14001F6738 /* CNDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807BAFF2085DD14001F6738 /* CNDemoUITests.m */; };
+		1807BB0F2085DE6C001F6738 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807BB0E2085DE6C001F6738 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1807BAFB2085DD14001F6738 /* CNDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1807BAFF2085DD14001F6738 /* CNDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNDemoUITests.m; sourceTree = "<group>"; };
 		1807BB012085DD14001F6738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1807BB0D2085DE6C001F6738 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1807BB0E2085DE6C001F6738 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1807BADC2085DD12001F6738 /* AppDelegate.m */,
 				1807BADE2085DD12001F6738 /* ViewController.h */,
 				1807BADF2085DD12001F6738 /* ViewController.m */,
+				1807BB0D2085DE6C001F6738 /* Person.h */,
+				1807BB0E2085DE6C001F6738 /* Person.m */,
 				1807BAE12085DD12001F6738 /* Main.storyboard */,
 				1807BAE42085DD14001F6738 /* Assets.xcassets */,
 				1807BAE62085DD14001F6738 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				1807BAE02085DD12001F6738 /* ViewController.m in Sources */,
 				1807BAEB2085DD14001F6738 /* main.m in Sources */,
+				1807BB0F2085DE6C001F6738 /* Person.m in Sources */,
 				1807BADD2085DD12001F6738 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
